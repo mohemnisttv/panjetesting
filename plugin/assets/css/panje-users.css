@@ -1,0 +1,10 @@
+.panje-user-search{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:20px 0}
+.panje-user-search label{font-weight:600}
+.panje-user-search input[type=search]{width:min(100%,340px)}
+.panje-table-scroll{overflow-x:auto;margin-block:16px;border:1px solid #dfe8e2;border-radius:12px}
+.panje-table-scroll:focus-visible{outline:2px solid #08722e;outline-offset:3px}
+.panje-table-scroll .widefat{min-width:780px;border:0;border-radius:0}
+.panje-wallet-adjust{display:flex;align-items:center;gap:6px}
+.panje-wallet-adjust input[type=number]{width:130px}
+.panje-pagination{display:flex;gap:10px;margin-block:18px}
+@media(max-width:600px){.panje-user-search label{width:100%}.panje-user-search input[type=search]{flex:1;min-width:150px}}

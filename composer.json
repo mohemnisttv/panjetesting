@@ -1,0 +1,13 @@
+{
+  "name": "panje/wordpress-plugin",
+  "description": "Panje veterinary nutrition platform",
+  "type": "wordpress-plugin",
+  "require": {
+    "php": ">=8.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Panje\\": "src/"
+    }
+  }
+}
